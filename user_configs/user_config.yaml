@@ -1,0 +1,27 @@
+# user_config.yaml
+# user defined configs for the training and inference of denoiser model
+# full list of config variables and their default values refers to the denoiser_config.py
+
+CUTOFF: 5.0
+
+TRAIN:
+  NUM_WORKERS: 4
+  BATCH_SIZE: 8
+  LEARN_RATE: 2e-4
+  NUM_UPDATES: 300_000
+  SIGMA_MAX: 0.15
+
+MODEL:
+  NUM_SPECIES: 2
+  SAVE_FILE: './saved_models/saved-ice-denoiser.pt'
+
+#customize the folder path to read/save files
+DATA:
+  IDEAL_STRUCTURES: './data/ice-unitcell/*.cif'
+  TEST_STRUCTURES: './data/ice-traj/{label}/traj*'
+  OUTPUT_FILE: './data/denoised/ice_phase_{label}_{count}_denoised.extxyz'
+
+INFERENCE:
+  SCALE: 1
+  STEPS: 20
+  LABEL_LIST: ['2', '1c', '1h', '3', '6', '7', 'sI', 'w']

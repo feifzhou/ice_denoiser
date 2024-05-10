@@ -1,0 +1,54 @@
+data_genice
+#
+#Command line: /usr/workspace/sun36/anaconda/envs/opence-1.8.0/bin/genice2 --rep 1 1 1 6 --format cif
+_cell_length_a                6.181100976955657
+_cell_length_b                6.181100976955657
+_cell_length_c                5.698093086344174
+_cell_angle_alpha             90.0
+_cell_angle_beta              90.0
+_cell_angle_gamma             90.0
+
+_symmetry_cell_setting        'orthorhombic'
+_symmetry_space_group_name_H-M   'P 1 '
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+X,Y,Z
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+    O0     O    0.7578    0.2576    0.7510
+    H1     H    0.7330    0.1484    0.8670
+    H2     H    0.6486    0.2328    0.6350
+    O3     O    0.4753    0.2577    0.3729
+    H4     H    0.5444    0.1479    0.2812
+    H5     H    0.3238    0.2322    0.3516
+    O6     O    0.9618    0.7463    0.6373
+    H7     H    1.0443    0.7337    0.4958
+    H8     H    1.0448    0.8417    0.7342
+    O9     O    0.5252    0.7434    0.6285
+   H10     H    0.4561    0.8532    0.7202
+   H11     H    0.6767    0.7689    0.6498
+   O12     O    0.2501    0.4626    0.8743
+   H13     H    0.3726    0.5378    0.8119
+   H14     H    0.1277    0.5379    0.8118
+   O15     O    0.0387    0.2456    0.3641
+   H16     H   -0.0442    0.3413    0.2673
+   H17     H   -0.0438    0.2329    0.5056
+   O18     O    0.7550    0.5393    0.1366
+   H19     H    0.7678    0.4566   -0.0048
+   H20     H    0.6594    0.4564    0.2335
+   O21     O    0.2427    0.7584    0.2503
+   H22     H    0.3518    0.7336    0.3664
+   H23     H    0.2674    0.6489    0.1345
+   O24     O    0.7429    0.9762    0.1278
+   H25     H    0.8529    1.0451    0.2194
+   H26     H    0.7683    0.8247    0.1490
+   O27     O    0.2501    0.0249    0.8571
+   H28     H    0.2501   -0.0440    1.0076
+   H29     H    0.2501    0.1764    0.8917
+
