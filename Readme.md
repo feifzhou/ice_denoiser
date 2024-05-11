@@ -1,10 +1,8 @@
 # Graph Network Model Denoiser and Water Classification with SOAP Descriptors
 
-This repository was authored by Hong Sun (sun36@llnl.gov)
+This sub-package was authored by Hong Sun (sun36@llnl.gov). It is part of the [graphite](https://github.com/LLNL/graphite) package.
 
-The neural network codes were forked from [graphite](https://github.com/LLNL/graphite)
-
-This repository contains code for two modules:
+It contains code for two modules:
 
 1. Module I: Training and applying a score-based denoiser model to denoise thermal perturbation in crystal structures.
 2. Module II: Classifying ice configurations based on similarity measures using SOAP descriptors.
